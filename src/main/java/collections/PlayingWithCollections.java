@@ -48,6 +48,10 @@ public class PlayingWithCollections {
 
     public static void playWithMaps(){
 
+        DataReader.fillWithStudentsAndCourses();
+        HashMap<Student, Course> studentCourseHashMap = new HashMap<>();
+
+
         // Lav et HashMap() med Student-objekter og Courses, hvor Student er key og Course er value
         // Fyld det op ved at kalde DataReader.fillWithStudentsAndCourses()
 
